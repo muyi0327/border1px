@@ -11,8 +11,23 @@
 ### $side
 上＼下＼左＼右哪个边框 可选值:
 
-    all: 全部显示
+    all: 全部显示 
+    .box{
+        @include border1px(green, all);
+    }
     left：显示左边框
+    .box{
+        @include border1px(green, left);
+    }
     right：显示右边框
+    .box{
+        @include border1px(green, right);
+    }
     top：显示上边框
+    .box{
+        @include border1px(green, top);
+    }
     bottom：显示下边框
+    .box{
+        @include border1px(green, bottom);
+    }
