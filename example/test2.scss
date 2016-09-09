@@ -48,6 +48,6 @@
 
     // only border radius
     .brd{
-        @include border1px(green, all, 15);
+        @include border1px(green, all, 20);
     }
 }

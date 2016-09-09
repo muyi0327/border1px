@@ -108,7 +108,7 @@
     height: 200%;
     transform: scale(0.5);
     transform-origin: 0 0;
-    border-radius: 30px;
+    border-radius: 40px;
   }
 }
 
@@ -118,7 +118,7 @@
     height: 150%;
     transform: scale(0.6666);
     transform-origin: 0 0;
-    border-radius: 22.5px;
+    border-radius: 30px;
   }
 }
 
@@ -128,6 +128,6 @@
     height: 300%;
     transform: scale(0.3333);
     transform-origin: 0 0;
-    border-radius: 45px;
+    border-radius: 60px;
   }
 }

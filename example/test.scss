@@ -8,6 +8,7 @@
 
     .box{
         margin-bottom: 20px;
+        text-indent: 1em;
     }
 
     // only left border
@@ -57,6 +58,6 @@
 
     // border radius
     .brd{
-        @include border1px(green, all, 5);
+        @include border1px(green, all, 15);
     }
 }
