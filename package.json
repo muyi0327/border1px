@@ -1,0 +1,24 @@
+{
+  "name": "border1px",
+  "version": "0.1.0",
+  "description": "mixin for fixed bug of mobile border 1px",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/muyi0327/border1px.git"
+  },
+  "keywords": [
+    "mobile",
+    "border",
+    "1px"
+  ],
+  "author": "muyi0327",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muyi0327/border1px/issues"
+  },
+  "homepage": "https://github.com/muyi0327/border1px#readme"
+}
