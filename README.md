@@ -52,7 +52,7 @@
 ### $br: border-radius 圆角 可省
 可选值: Number数字
 默认值 0
-单位px，不需要写
+单位px，无需写明
 
     .box{
         @include border1px(green, all, 5);
@@ -66,3 +66,26 @@
     .box{
         @include border1px(green, all, 5, dotted);
     }
+
+
+## 提示
+由于生成代码量相对比较大，建议不直接使用 @include border1px()这种方式。
+可以先创建一个基础样式，在此基础上修改配置，可以减省生成代码量
+
+例如：
+
+    .base{
+        @include border1px(green);
+    }
+
+    // only left border
+    .bl:after {
+        border-width:0 0 0 1px;
+    }
+
+    // only right border
+    .br:after {
+        border-width:0 1px 0 0;
+    }
+
+    <div class="base bl"></div>
