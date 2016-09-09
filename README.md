@@ -35,3 +35,8 @@
     .box{
         @include border1px(green, bottom);
     }
+
+    // 显示多边框
+    .box{
+        @include border1px(green, top bottom);
+    }
