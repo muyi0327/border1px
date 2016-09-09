@@ -1,8 +1,8 @@
 {
   "name": "border1px",
   "version": "0.1.0",
-  "description": "mixin for fixed bug of mobile border 1px",
-  "main": "index.js",
+  "description": "fixed the bug of unable to display a 1 pixel border in mobile",
+  "main": "border1px.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
