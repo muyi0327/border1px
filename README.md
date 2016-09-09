@@ -1,2 +1,2 @@
 # border1px
-fixed the bug of unable to display a 1 pixel border in mobile
+解决手机端高像素比屏下面无法显示1px边框问题
