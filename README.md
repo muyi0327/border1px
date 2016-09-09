@@ -17,6 +17,7 @@
 ### $side 上＼下＼左＼右哪个边框
 可选值:all left right bottom top
 默认值: all
+多个边框用空格分开即可，没有顺序限制
 
     // all: 全部显示 all可省
     .box{
@@ -51,6 +52,7 @@
 ### $br: border-radius 圆角 
 可选值: Number数字
 默认值 0
+单位px，不需要写
 
     .box{
         @include border1px(green, all, 5);
