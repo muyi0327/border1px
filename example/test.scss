@@ -1,0 +1,62 @@
+@import '../border1px.scss';
+
+.wrap{
+    margin: 20px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+
+    .box{
+        margin-bottom: 20px;
+    }
+
+    // only left border
+    .bl{
+        @include border1px(green, left);
+    }
+
+    // only right border
+    .br{
+        @include border1px(green, right);
+    }
+
+    // left and right border
+    .blr{
+        @include border1px(green, left right);
+    }
+
+    // only top border
+    .bt{
+        @include border1px(green, top);
+    }
+
+    // only bottom border
+    .bb{
+        @include border1px(green, bottom);
+    }
+
+    //  top and bottom border
+    .btb{
+        @include border1px(green, top bottom);
+    }
+
+    // all border
+    .btrbl{
+        @include border1px(green, top right bottom left);
+    }
+
+    // all border
+    .btrbl1{
+        @include border1px(green, all);
+    }
+
+    // all border
+    .btrbl2{
+        @include border1px(green);
+    }
+
+    // border radius
+    .brd{
+        @include border1px(green, all, 5);
+    }
+}

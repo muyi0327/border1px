@@ -1,0 +1,481 @@
+/**
+ * fixed mobile border width 1px bug
+ * @param $bc border-color {Color}
+ * @param $side 
+ *
+ **/
+.wrap {
+  margin: 20px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+}
+
+.wrap .box {
+  margin-bottom: 20px;
+}
+
+.wrap .bl {
+  position: relative;
+}
+
+.wrap .bl:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid green;
+  point-events: none;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx), (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .wrap .bl:after {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  .wrap .bl:after {
+    width: 150%;
+    height: 150%;
+    transform: scale(0.6666);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 3) {
+  .wrap .bl:after {
+    width: 300%;
+    height: 300%;
+    transform: scale(0.3333);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+.wrap .br {
+  position: relative;
+}
+
+.wrap .br:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid green;
+  point-events: none;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx), (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .wrap .br:after {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  .wrap .br:after {
+    width: 150%;
+    height: 150%;
+    transform: scale(0.6666);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 3) {
+  .wrap .br:after {
+    width: 300%;
+    height: 300%;
+    transform: scale(0.3333);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+.wrap .blr {
+  position: relative;
+}
+
+.wrap .blr:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid green;
+  border-right: 1px solid green;
+  point-events: none;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx), (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .wrap .blr:after {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  .wrap .blr:after {
+    width: 150%;
+    height: 150%;
+    transform: scale(0.6666);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 3) {
+  .wrap .blr:after {
+    width: 300%;
+    height: 300%;
+    transform: scale(0.3333);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+.wrap .bt {
+  position: relative;
+}
+
+.wrap .bt:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid green;
+  point-events: none;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx), (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .wrap .bt:after {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  .wrap .bt:after {
+    width: 150%;
+    height: 150%;
+    transform: scale(0.6666);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 3) {
+  .wrap .bt:after {
+    width: 300%;
+    height: 300%;
+    transform: scale(0.3333);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+.wrap .bb {
+  position: relative;
+}
+
+.wrap .bb:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid green;
+  point-events: none;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx), (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .wrap .bb:after {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  .wrap .bb:after {
+    width: 150%;
+    height: 150%;
+    transform: scale(0.6666);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 3) {
+  .wrap .bb:after {
+    width: 300%;
+    height: 300%;
+    transform: scale(0.3333);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+.wrap .btb {
+  position: relative;
+}
+
+.wrap .btb:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid green;
+  border-bottom: 1px solid green;
+  point-events: none;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx), (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .wrap .btb:after {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  .wrap .btb:after {
+    width: 150%;
+    height: 150%;
+    transform: scale(0.6666);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 3) {
+  .wrap .btb:after {
+    width: 300%;
+    height: 300%;
+    transform: scale(0.3333);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+.wrap .btrbl {
+  position: relative;
+}
+
+.wrap .btrbl:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid green;
+  border-right: 1px solid green;
+  border-bottom: 1px solid green;
+  border-left: 1px solid green;
+  point-events: none;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx), (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .wrap .btrbl:after {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  .wrap .btrbl:after {
+    width: 150%;
+    height: 150%;
+    transform: scale(0.6666);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 3) {
+  .wrap .btrbl:after {
+    width: 300%;
+    height: 300%;
+    transform: scale(0.3333);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+.wrap .btrbl1 {
+  position: relative;
+}
+
+.wrap .btrbl1:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 1px solid green;
+  point-events: none;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx), (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .wrap .btrbl1:after {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  .wrap .btrbl1:after {
+    width: 150%;
+    height: 150%;
+    transform: scale(0.6666);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 3) {
+  .wrap .btrbl1:after {
+    width: 300%;
+    height: 300%;
+    transform: scale(0.3333);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+.wrap .btrbl2 {
+  position: relative;
+}
+
+.wrap .btrbl2:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 1px solid green;
+  point-events: none;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx), (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .wrap .btrbl2:after {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  .wrap .btrbl2:after {
+    width: 150%;
+    height: 150%;
+    transform: scale(0.6666);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 3) {
+  .wrap .btrbl2:after {
+    width: 300%;
+    height: 300%;
+    transform: scale(0.3333);
+    transform-origin: 0 0;
+    border-radius: 0px;
+  }
+}
+
+.wrap .brd {
+  position: relative;
+}
+
+.wrap .brd:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 1px solid green;
+  point-events: none;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx), (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .wrap .brd:after {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    border-radius: 10px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  .wrap .brd:after {
+    width: 150%;
+    height: 150%;
+    transform: scale(0.6666);
+    transform-origin: 0 0;
+    border-radius: 7.5px;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 3) {
+  .wrap .brd:after {
+    width: 300%;
+    height: 300%;
+    transform: scale(0.3333);
+    transform-origin: 0 0;
+    border-radius: 15px;
+  }
+}

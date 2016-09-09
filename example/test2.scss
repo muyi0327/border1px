@@ -1,0 +1,53 @@
+@import '../border1px.scss';
+
+.wrap{
+    margin: 20px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+
+    .box{
+        margin-bottom: 20px;
+        text-indent: 2em;
+    }
+
+    // 基础border
+    .border-base{
+        @include border1px(green);
+    }
+
+    // only border left
+    .bl:after{
+        border-width: 0 0 0 1px;
+    }
+
+    // only border right
+    .br:after{
+        border-width: 0 1px 0 0;
+    }
+
+    // only border top
+    .bt:after{
+        border-width: 1px 0 0 0;
+    }
+
+    // only border bottom
+    .bb:after{
+        border-width: 0 0 1px 0;
+    }
+
+    // only border top and bottom
+    .btb:after{
+        border-width: 1px 0;
+    }
+
+    // only border right and left
+    .blr:after{
+        border-width: 0 1px;
+    }
+
+    // only border radius
+    .brd{
+        @include border1px(green, all, 15);
+    }
+}
