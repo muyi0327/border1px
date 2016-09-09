@@ -5,13 +5,20 @@
 
 ## params
 
-### $bc 
-    边颜色，默认#000000
+### $bc 边颜
+可选值:hex rgba?
+默认值:#000000
 
-### $side
-上＼下＼左＼右哪个边框 可选值:all left right bottom top
+    // 绿色边框
+    .box{
+        @include border1px(green);
+    }
 
-    // all: 全部显示 
+### $side 上＼下＼左＼右哪个边框
+可选值:all left right bottom top
+默认值: all
+
+    // all: 全部显示 all可省
     .box{
         @include border1px(green, all);
     }
@@ -39,4 +46,12 @@
     // 显示多边框
     .box{
         @include border1px(green, top bottom);
+    }
+
+### $br: border-radius 圆角 
+可选值: Number数字
+默认值 0
+
+    .box{
+        @include border1px(green, all, 5);
     }
