@@ -31,7 +31,7 @@
             height:200%;
             transform:scale(.5);
             transform-origin:0 0;
-            border-radius: $br*2px;
+            border-radius: #{$br*2}px;
         }
     }
 
@@ -43,7 +43,7 @@
             height:150%;
             transform:scale(.6666);
             transform-origin:0 0;
-            border-radius: $br*1.5px;
+            border-radius: #{$br*1.5}px;
         }
     }
 
@@ -53,7 +53,7 @@
             height:300%;
             transform:scale(.3333);
             transform-origin:0 0;
-            border-radius: $br*3px;
+            border-radius: #{$br*3}px;
         }
     }
 }
