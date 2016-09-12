@@ -77,6 +77,7 @@
 ## 提示
 由于生成代码量相对比较大，建议不直接使用 @include border1px()这种方式。
 可以先创建一个基础样式，在此基础上修改配置，可以减省生成代码量
+
 特别说明，border-radius跟像素比相关，所以依旧采用@include border1px(green, all, 15px)的方式
 
 例如：
