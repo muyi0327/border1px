@@ -83,7 +83,7 @@
 例如：
 
     .base{
-        @include border1px(green);
+        @include border1px();
     }
 
     // only left border
@@ -96,5 +96,17 @@
         border-width:0 1px 0 0;
     }
 
+    // change border color
+    .bc-green:after {
+        border-color: green;
+    }
+
+    // border-radius
+    .b-radius:after {
+        @include border1px(green, all, 15px)
+    }
+
     <div class="base bl">only 左边框</div>
     <div class="base br">only 右边框</div>
+    <div class="base bc-green">绿色边框</div>
+    <div class="base b-radius">圆角</div>
