@@ -96,4 +96,5 @@
         border-width:0 1px 0 0;
     }
 
-    <div class="base bl"></div>
+    <div class="base bl">only 左边框</div>
+    <div class="base br">only 右边框</div>
